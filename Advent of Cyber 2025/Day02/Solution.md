@@ -1,62 +1,62 @@
-# Phishing - Merry Clickmas
+# Phishing – Merry Clickmas
 
 ## Objective
-
 - Understand what social engineering is
 - Learn the types of phishing
-- Explore how red teams create fake      login pages
+- Explore how red teams create fake login pages
 - Use the Social-Engineer Toolkit to send a phishing email
 
 ## Environment / Tools
 
-## OS / VM / AttackBox
+### OS / VM
 - AttackBox
 - Virtual Machine
-Tools and commands used
+
+### Tools and Commands
+- Social-Engineer Toolkit (SET)
+- Python
+- `ls`
+- `./server.py`
 
 ## Process
 
-To connect to the virtual environment, I first started the AttackBox and Virtual Machine. 
+I started the AttackBox and Virtual Machine to connect to the lab environment.
 
+The goal of this task was to acquire user login credentials through a phishing attack. A fake login page was already provided and needed to be hosted locally. This page was designed to capture any credentials entered by the user and display them in the terminal.
 
-This task aims to acquire the login credentials of the user. For this, I had to send a phishing email to the user with the help of a Social Engineering Toolkit (SET). There already exists a fake login page here which has to be hosted by running the script. This script is designed in such a way so as to capture the user credentials when entered into the login page.
+To host the fake login page, I navigated to the provided directory:
 
+```bash
+cd ~/Rooms/AoC2025/Day02
+```
 
-To first host this fake login page, run the script by changing the directory to 
-```~/Rooms/AoC2025/Day02```
+I listed the files in the directory:
 
+```bash
+ls
+```
 
-By using the ```ls``` command one can see that there are two files index.html and server.py. 
-The server.py file consists of the script and to run it, use 
-```./server.py```
+The directory contained `index.html` and `server.py`. The `server.py` script is responsible for hosting the phishing page.
 
+I started the server using:
 
-This server now hosts a fake login page and starts listening for credentials. If the target user enters the credentials, it will be shown on the same terminal.
+```bash
+./server.py
+```
 
+Once the server was running, it hosted the fake login page and began listening for credentials. Any credentials entered by the target user were displayed directly in the terminal.
 
-Result
+## Result
+- Credentials were successfully captured
+- The obtained password was reused to access the email portal
+- Task questions were answered using the captured information
 
-Flag / answer obtained
+## Notes
+- The phishing page must be hosted before sending the email
+- SET simplifies the process of crafting and sending phishing emails
+- Monitoring the terminal is required to capture submitted credentials
 
-Output that mattered
-
-Notes
-
-Observations made while doing the task.
-
-Why a step was required
-
-What worked as expected
-
-Any mistakes or adjustments
-
-Takeaways
-
-What this task reinforced or introduced.
-
-Concept learned
-
-Technique practiced
-
-Thing to remember for later
-
+## Takeaways
+- Phishing attacks rely more on user trust than technical exploits
+- Credential harvesting can be set up with minimal effort
+- Password reuse significantly increases the impact of phishing attacks
