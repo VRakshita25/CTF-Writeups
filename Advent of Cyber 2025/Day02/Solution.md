@@ -30,7 +30,7 @@ What is the password used to access the TBFC portal?
 `unranked-wisdom-anthem`
 
 What is the total number of toys expected for delivery?  
-`bash 1984000`
+`1984000`
 
 ## Result
 - Credentials were successfully captured
