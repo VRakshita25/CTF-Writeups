@@ -23,7 +23,7 @@ On opening the Van SolveIT interface, I found 3 tasks -
 2. Blue Team task
 3. Software
 
-<u>Red Team Task:</u>
+#### Red Team Task
 
 In this task, the AI chatbot generated an exploit script to bypass SQLi vulnerability in an intentionally vulnerable login page. I used nano editor and ran the python script using 
 `python3 script.py`
@@ -33,11 +33,12 @@ This taught me how to generate exploit scripts and how exploit scripts actually 
 
 ![alt text](DAY4-1.png)
 
-<u>Blue Team Task</u>
+#### Blue Team Task
 
 In the blue team task Van SolveIT generated logs of the user with username Alice along with their password. This helped me understand how AI helps in log analysis
 
-<u> Software Task</u>
+#### Software Task
+
 The final task, it reviewed the source code for vulnerabilities and successfully found out the presence of SQLi. This taught me how to identify SQLi vulnerabilities by examining the source code.
 
 ![alt text](DAY4-2.png)
