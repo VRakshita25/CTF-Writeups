@@ -116,7 +116,7 @@ A playbook to follow when such incidents occur. The immediate actions to take ar
 
 - John the Ripper stores cracked passwords in a pot file, meaning hashes are not cracked again in future runs; `john --show <hashfile>` is used to retrieve previously cracked passwords.
 
-- PDF and ZIP encryption relies entirely on password strength—weak passwords can be recovered quickly using dictionary-based attacks with common wordlists like `rockyou.txt`
+- PDF and ZIP encryption relies entirely on password strength. Weak passwords can be recovered quickly using dictionary-based attacks with common wordlists like `rockyou.txt`
 
 - Different tools serve different roles: `pdf2john` and `zip2john` extract hashes, while John performs the cracking using wordlists or brute-force techniques.
 
