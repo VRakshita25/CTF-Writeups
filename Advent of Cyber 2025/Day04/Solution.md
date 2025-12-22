@@ -53,8 +53,6 @@ Complete the AI showcase by progressing through all of the stages. What is the f
 
 Execute the exploit provided by the red team agent against the vulnerable web application hosted at MACHINE_IP:5000. What flag is provided in the script's output after it?
 
-Remember, you will need to update the IP address placeholder in the script with the IP of your vulnerable machine (MACHINE_IP:5000)
-
 `THM{SQLI_EXPLOIT}`
 
 ## Result
