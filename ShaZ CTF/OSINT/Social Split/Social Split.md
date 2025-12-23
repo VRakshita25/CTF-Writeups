@@ -7,7 +7,7 @@ Username: `rickyroller6969`
 
 ## Solution:
 
-The first part of the flag was in the header photo of the user's profile.
+The first part of the flag was in the header photo of the user's profile in Twitter.
 
 ![alt text](image-4.png)
 
@@ -23,7 +23,7 @@ Going to the user's profile in Discord revealed that they live in Adyar and love
 
 ![alt text](image-2.png)
 
-So searching for the same in google maps lead to the Anna Swimming Pool. The flag was found in the review section of the same.
+So searching for the same in Google maps lead to the Anna Swimming Pool. The flag was found in the review section of the same.
 
 ![alt text](image-3.png)
 
