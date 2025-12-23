@@ -29,4 +29,4 @@ So searching for the same in Google maps lead to the Anna Swimming Pool. The fla
 
 Therefore the final assembled flag is:
 
-`ShaZ{yOu_fOund_th3_sk1b1d1_spl1tt3d_fl4gs_gggss}
+`ShaZ{yOu_fOund_th3_sk1b1d1_spl1tt3d_fl4gs_gggss}`
