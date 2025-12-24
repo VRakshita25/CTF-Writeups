@@ -14,4 +14,4 @@ By zooming the file, I found the flag.
  ![alt text](thala_flag.png)
 
 Flag: 
-`ShaZ{ad111ch11_7h0Okum_7hOO0ku_dur411}`
+`ShaZ{ad111ch11_7h00kum_7h000ku_dur411}`
